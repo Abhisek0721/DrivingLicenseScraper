@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<partial-response id="j_id1"><changes><update id="form_rcdl:rcdl_pnl"><![CDATA[<div id="form_rcdl:rcdl_pnl" class="ui-panel ui-widget ui-widget-content ui-corner-all datatable-panel" data-widget="widget_form_rcdl_rcdl_pnl"><div id="form_rcdl:rcdl_pnl_header" class="ui-panel-titlebar ui-widget-header ui-helper-clearfix ui-corner-all"><span class="ui-panel-title">Know Your Driving Licence Status</span></div><div id="form_rcdl:rcdl_pnl_content" class="ui-panel-content ui-widget-content"><div id="form_rcdl:j_idt18" class="ui-messages ui-widget" aria-live="polite"></div><div id="form_rcdl:j_idt20" class="ui-outputpanel ui-widget">
+                                <div class="ui-grid-row bottom-space">
+                                    <div class="ui-grid-col-4 resp-blank-height"></div>
+                                    <div class="ui-grid-col-2">
+                                        <label class="field-label resp-label-section"><label id="form_rcdl:j_idt22" class="ui-outputlabel ui-widget top-space field-label-mandate" for="form_rcdl:tf_dlNO">Driving Licence No.<span class="ui-outputlabel-rfi">*</span></label>
+                                        </label>
+                                    </div>
+                                    <div class="ui-grid-col-3"><script id="form_rcdl:j_idt24_s" type="text/javascript">$(function(){PrimeFaces.cw("KeyFilter","widget_form_rcdl_j_idt24",{id:"form_rcdl:j_idt24",target:"form_rcdl:tf_dlNO",regEx:/[A-Z0-9- /]/i,preventPaste:true});});</script><input id="form_rcdl:tf_dlNO" name="form_rcdl:tf_dlNO" type="text" value="DL0420110149646" autocomplete="off" maxlength="20" placeholder="Enter Driving Licence No." size="16" onchange="PrimeFaces.ab({s:&quot;form_rcdl:tf_dlNO&quot;,e:&quot;valueChange&quot;,p:&quot;form_rcdl:tf_dlNO&quot;,u:&quot;form_rcdl:tf_dlNO&quot;});" disabled="disabled" aria-required="true" class="ui-inputfield ui-inputtext ui-widget ui-state-default ui-corner-all ui-state-disabled input" /><script id="form_rcdl:tf_dlNO_s" type="text/javascript">PrimeFaces.cw("InputText","widget_form_rcdl_tf_dlNO",{id:"form_rcdl:tf_dlNO"});</script>
+                                    </div>
+                                </div>
+                                <div class="ui-grid-row bottom-space">
+                                    <div class="ui-grid-col-4 resp-blank-height"></div>
+                                    <div class="ui-grid-col-2">
+                                        <label class="field-label resp-label-section right-position"><label id="form_rcdl:j_idt28" class="ui-outputlabel ui-widget top-space field-label-mandate" for="form_rcdl:tf_dob_input">Date Of Birth<span class="ui-outputlabel-rfi">*</span></label>
+                                        </label>
+                                    </div>
+                                    <div class="ui-grid-col-3"><span id="form_rcdl:tf_dob" class="ui-calendar input"><input id="form_rcdl:tf_dob_input" name="form_rcdl:tf_dob_input" type="text" aria-required="true" value="09-02-1976" class="ui-inputfield ui-widget ui-state-default ui-corner-all ui-state-disabled" readonly="readonly" disabled="disabled" autocomplete="off" maxlength="12" placeholder="SELECT DATE OF BIRTH" onchange="PrimeFaces.ab({s:&quot;form_rcdl:tf_dob&quot;,e:&quot;valueChange&quot;,p:&quot;form_rcdl:tf_dob&quot;,u:&quot;form_rcdl:tf_dob&quot;,ps:true});" aria-labelledby="form_rcdl:j_idt28" /></span><script id="form_rcdl:tf_dob_s" type="text/javascript">$(function(){PrimeFaces.cw("Calendar","widget_form_rcdl_tf_dob",{id:"form_rcdl:tf_dob",popup:true,locale:"en_US",dateFormat:"dd-mm-yy",defaultDate:"09-02-1976",maxDate:"16-02-2024",disabled:true,yearRange:"1900:c",changeMonth:true,changeYear:true,behaviors:{}});});</script>
+                                    </div>
+                                </div></div>
+                            
+                            <div class="ui-grid-row bottom-space center-position">
+                                <div class="ui-grid-col-12"><button id="form_rcdl:j_idt50" name="form_rcdl:j_idt50" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" onclick="PrimeFaces.ab({s:&quot;form_rcdl:j_idt50&quot;,u:&quot;form_rcdl:pnl_show form_rcdl:pg_show form_rcdl:rcdl_pnl&quot;,onst:function(cfg){PF('block_ui').show();;},onsu:function(data,status,xhr){PF('block_ui').hide();;}});return false;" type="submit"><span class="ui-button-text ui-c">Check Status</span></button><script id="form_rcdl:j_idt50_s" type="text/javascript">PrimeFaces.cw("CommandButton","widget_form_rcdl_j_idt50",{id:"form_rcdl:j_idt50"});</script><button id="form_rcdl:rest_bt" name="form_rcdl:rest_bt" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" onclick="" type="submit"><span class="ui-button-text ui-c">Reset</span></button><script id="form_rcdl:rest_bt_s" type="text/javascript">PrimeFaces.cw("CommandButton","widget_form_rcdl_rest_bt",{id:"form_rcdl:rest_bt"});</script>                    
+                                </div>
+                            </div><div id="form_rcdl:pnl_show" class="ui-outputpanel ui-widget datatable-panel"><span id="form_rcdl:pg_show">
+
+    
+    <div class="ui-grid ui-grid-responsive">
+        <div class="ui-grid-col-12">
+            
+            <div class="ui-grid ui-grid-responsive"><div id="form_rcdl:dlPanel" class="ui-outputpanel ui-widget"><div id="form_rcdl:j_idt73" class="ui-outputpanel ui-widget">
+                        <div class="font-bold top-space bottom-space text-capitalize center-position text-underline">
+                            Details Of Driving License: DL0420110149646
+                        </div>
+                        <table class="table table-responsive table-striped table-condensed table-bordered">
+                            <tr>
+                                <td style="width: 20%;"><span class="font-bold">Current Status</span></td>
+                                <td><span class="">ACTIVE</span></td>
+                            </tr>
+                            <tr>
+                                <td style="width: 20%;"><span class="font-bold">Holder's Name</span></td>
+                                <td>A*U*A*B*E*A</td>
+                            </tr>
+                            <tr>
+                                <td style="width: 20%;"><span class="font-bold">Old / New DL No.</span></td>
+                                <td>DL-0420110149646</td>
+                            </tr>
+                            <tr>
+                                <td style="width: 20%;"><span class="font-bold">Source Of Data</span></td>
+                                <td>SARATHI</td>
+                            </tr>
+                        </table>
+                        <div class="font-bold top-space bottom-space text-capitalize center-position text-underline">
+                            Driving License Initial Details
+                        </div>
+                        <table class="table table-responsive table-striped table-condensed table-bordered">
+                            <tr>
+                                <td style="width: 20%;"><span class="font-bold">Initial Issue Date</span></td>
+                                <td>01-Mar-2011</td>
+                            </tr>
+                            <tr>
+                                <td style="width: 20%;"><span class="font-bold">Initial Issuing Office</span></td>
+                                <td>ZONAL OFFICE, WEST DELHI, JANAKPURI</td>
+                            </tr>
+                        </table>
+                        <div class="font-bold top-space bottom-space text-capitalize center-position text-underline">
+                            Driving License Validity Details
+                        </div>
+                        <table class="table table-responsive table-striped table-condensed table-bordered data-table" style="margin-bottom: 0px;">
+                            <tr>
+                                <td style="width: 33%;"><span class="font-bold">Non-Transport</span></td>
+                                <td style="width: 33%;"><span class="font-bold">From: </span>01-Mar-2011</td>
+                                <td style="width: 33%;"><span class="font-bold">To: </span>08-Feb-2026</td>
+                            </tr>
+                            <tr>
+                                <td style="width: 33%;"><span class="font-bold">Transport</span></td>
+                                <td style="width: 33%;"><span class="font-bold">From: </span>NA</td>
+                                <td style="width: 33%;"><span class="font-bold">To: </span>NA</td>
+                            </tr>
+                        </table>
+                        <table class="table table-responsive table-striped table-condensed table-bordered data-table" style="margin-top: 0px;">
+                            <tr>
+                                <td style="width: 25%;"><span class="font-bold">Hazardous Valid Till</span></td>
+                                <td style="width: 25%;">NA</td>
+                                <td style="width: 25%;"><span class="font-bold">Hill Valid Till</span></td>
+                                <td style="width: 25%;">NA</td>
+                            </tr>
+                        </table>
+                        <div class="font-bold top-space bottom-space text-capitalize center-position text-underline">
+                            Class Of Vehicle Details
+                        </div><div id="form_rcdl:j_idt139" class="ui-datatable ui-widget top-space bottom-space" style="width: 100%;"><div class="ui-datatable-tablewrapper"><table role="grid"><thead id="form_rcdl:j_idt139_head"><tr role="row"><th id="form_rcdl:j_idt139:j_idt140" class="ui-state-default" role="columnheader" aria-label="COV Category"><span class="ui-column-title">COV Category</span></th><th id="form_rcdl:j_idt139:j_idt142" class="ui-state-default" role="columnheader" aria-label="Class Of Vehicle"><span class="ui-column-title">Class Of Vehicle</span></th><th id="form_rcdl:j_idt139:j_idt145" class="ui-state-default" role="columnheader" aria-label="COV Issue Date"><span class="ui-column-title">COV Issue Date</span></th></tr></thead><tbody id="form_rcdl:j_idt139_data" class="ui-datatable-data ui-widget-content"><tr data-ri="0" class="ui-widget-content ui-datatable-even" role="row"><td role="gridcell">NT</td><td role="gridcell">ADPVEH</td><td role="gridcell">01-Mar-2011</td></tr></tbody></table></div></div><script id="form_rcdl:j_idt139_s" type="text/javascript">$(function(){PrimeFaces.cw("DataTable","widget_form_rcdl_j_idt139",{id:"form_rcdl:j_idt139"});});</script></div></div>
+            </div>
+            
+        </div>
+    </div></span></div><div id="form_rcdl:j_idt52" class="ui-outputpanel ui-widget">
+                                <div class="ui-grid-row">
+                                    <div class="ui-grid-col-1 right-position right-space" style="width: 5% !important">
+                                        <b style="font-size: 14px !important"><u>Note:</u> - </b>
+                                    </div>
+                                    <div class="ui-grid-col-11">
+                                        <span class="text-red" style="font-size: 13px !important">Driving Licence number can be entered in any of the following formats: DL-1420110012345 or DL14 20110012345<br />
+                                            Total number of input characters should be exactly 16 (including space or '-').<br />
+                                            If you hold an old driving license with a different format, please convert the format as per below rule before entering.<br />
+                                            <b>SS-RRYYYYNNNNNNN</b> OR  <b>SSRR YYYYNNNNNNN</b><br />
+                                            Where<br />
+                                            <b>SS</b> - Two character State Code (like RJ for Rajasthan, TN for Tamil Nadu etc)<br />
+                                            <b>RR</b> - Two digit RTO Code<br />
+                                            <b>YYYY</b> - 4-digit Year of Issue (For Example: If year is mentioned in 2 digits, say 99, then it should be converted to 1999. Similarly use 2012 for 12).<br />
+                                            Rest of the numbers are to be given in 7 digits. If there are less number of digits, then additional 0's(zeros) may be added to make the total 7.<br />
+                                            For example: If the Driving Licence Number is  RJ-13/DLC/12/ 123456 then please enter RJ-1320120123456 OR RJ13 20120123456.</span>
+                                    </div>
+                                </div></div></div></div><script id="form_rcdl:rcdl_pnl_s" type="text/javascript">PrimeFaces.cw("Panel","widget_form_rcdl_rcdl_pnl",{id:"form_rcdl:rcdl_pnl"});</script>]]></update><update id="j_id1:javax.faces.ViewState:0"><![CDATA[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]]></update></changes></partial-response>
